@@ -2,8 +2,7 @@ This project demonstrates how to use asimple and basic CRUD application to talk 
 I am using Node.js, Express, MySQL & EJS Templating Engine.
 
 
-Usage / Instructions:
-
+Usage / Instructions
 Download / fork the project
 Go to the root of project
 Run following command: npm install ( This will pull down /install all needed modules )

@@ -108,7 +108,7 @@ app.use(flash())
 
 app.use('/', index)
 app.use('/users', users)
-
-app.listen(3000, function(){
-	console.log('Server running at port 3000: http://127.0.0.1:3000')
+var port = process.env.PORT || 3000;
+app.listen(port, function(){
+	console.log('Server running at port ' + port + ' : http://127.0.0.1:' + port);
 })
